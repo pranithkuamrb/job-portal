@@ -75,7 +75,7 @@ def job_list_View(request):
 
     context = {
 
-        'page_obj': page_obj,
+        'page_obj': job_list,
 
     }
     return render(request, 'jobapp/job-list.html', context)
